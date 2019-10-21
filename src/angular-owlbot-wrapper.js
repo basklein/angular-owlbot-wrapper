@@ -15,7 +15,7 @@ angular.module('angular-owlbot-wrapper').provider('owlbotService', function () {
           return null;
         }
 
-        return $http.get('https://cors-anywhere.herokuapp.com/https://owlbot.info/api/v3/dictionary/' + word, {headers:{'Authorization':'Token ' + token}}).then(function(response) {
+        return $http.get('https://owlbot.info/api/v3/dictionary/' + word, {headers:{'Authorization':'Token ' + token}}).then(function(response) {
           return response;
         }, function () {
           return null;

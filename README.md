@@ -23,7 +23,8 @@ This is a service for AngularJS that allows for easy requests to the Owlbot dict
     ```html
     <script src="YOUR_PATH/angular-owlbot-wrapper.min.js"></script>
     ```
-4. Use the angular service `owlbotService`.
+4. Set your Owlbot API token in your config script with the owlbotServiceProvider.setToken function.
+5. Use the angular service `owlbotService`.
 
 ## Sample
 
